@@ -1,0 +1,18 @@
+#!/bin/sh
+
+## AUTHOR:       AISK11
+## LOCATION:     /etc/grub.d/40_custom (0755 root:root)
+## DEPENDENCIES: grub-x86_64-efi
+## DESCRIPTION:  Bootloader hook.
+
+## Required line.
+exec tail -n +3 "${0}"
+
+## Custom menu entries.
+menuentry 'Reboot Computer' --class restart {
+    reboot
+}
+
+menuentry 'Shutdown Computer' --class shutdown {
+    halt
+}
