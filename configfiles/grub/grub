@@ -39,7 +39,7 @@ GRUB_COLOR_NORMAL='white/black'
 GRUB_COLOR_HIGHLIGHT='white/black'
 
 ## Disable nested entries.
-#GRUB_DISABLE_SUBMEN='true'
+#GRUB_DISABLE_SUBMENU='true'
 
 ## Bootloader theme.
 #GRUB_THEME=''
