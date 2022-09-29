@@ -38,5 +38,8 @@ GRUB_CMDLINE_LINUX_DEFAULT='cryptdevice=LABEL=LUKS:luks-root net.ifnames=0 quiet
 GRUB_COLOR_NORMAL='white/black'
 GRUB_COLOR_HIGHLIGHT='white/black'
 
+## Disable nested entries.
+#GRUB_DISABLE_SUBMEN='true'
+
 ## Bootloader theme.
 #GRUB_THEME=''
