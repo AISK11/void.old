@@ -3,6 +3,9 @@
 ## DEPENDENCIES: grub-x86_64-efi
 ## DESCRIPTION:  Bootloader configuration.
 
+## Apply changes made to this file with:
+## $(grub-mkconfig -o /boot/grub/grub.cfg)
+
 ## OS name.
 GRUB_DISTRIBUTOR='Void'
 
